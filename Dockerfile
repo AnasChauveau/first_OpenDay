@@ -1,5 +1,5 @@
 FROM node:22-alpine
-WORKDIR /
+WORKDIR /projet_openDay
 COPY . .
 RUN npm install
 EXPOSE 5173
